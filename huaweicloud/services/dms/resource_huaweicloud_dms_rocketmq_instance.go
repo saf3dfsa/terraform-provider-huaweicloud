@@ -86,10 +86,9 @@ func ResourceDmsRocketMQInstance() *schema.Resource {
 				Description: `Specifies the version of the RocketMQ engine.`,
 			},
 			"storage_space": {
-				Type:         schema.TypeInt,
-				Required:     true,
-				Description:  `Specifies the message storage capacity, Unit: GB.`,
-				ValidateFunc: validation.IntBetween(300, 3000),
+				Type:        schema.TypeInt,
+				Required:    true,
+				Description: `Specifies the message storage capacity, Unit: GB.`,
 			},
 			"vpc_id": {
 				Type:        schema.TypeString,
