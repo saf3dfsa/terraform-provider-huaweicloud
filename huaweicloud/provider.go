@@ -1214,6 +1214,7 @@ func Provider() *schema.Provider {
 
 			"huaweicloud_vpc_bandwidth":              eip.DataSourceBandWidth(),
 			"huaweicloud_vpc_bandwidths":             eip.DataSourceBandWidths(),
+			"huaweicloud_vpc_eip_common_pools":       eip.DataSourceVpcEipCommonPools(),
 			"huaweicloud_vpc_eip":                    eip.DataSourceVpcEip(),
 			"huaweicloud_vpc_eips":                   eip.DataSourceVpcEips(),
 			"huaweicloud_vpc_internet_gateways":      eip.DataSourceVPCInternetGateways(),
