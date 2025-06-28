@@ -134,7 +134,7 @@ func ResourceCodeArtsPipeline() *schema.Resource {
 				Optional:    true,
 				Computed:    true,
 				MaxItems:    1,
-				Description: `Specifies the pipeline concurrency control information.`,
+				Description: `Specifies the pipeline concurrency control information. a a`,
 				Elem:        resourceSchemePipelineConcurrencyControl(),
 			},
 			"enable_force_new": {
